@@ -66,6 +66,13 @@ h2{
     letter-spacing: 2px;
     font-weight: 900;
 }
+/* --------------- > Style for background-img ------------------ */
+body {
+    background-image: url('../images/YodaBg.jpg');
+    background-position:50% 50%;  /* Sets reference point to scale from */
+    background-size:cover;        /* Sets background image to cover entire element */
+}
+
 
 /* --------------- > Style for container ------------------ */
 
@@ -74,6 +81,7 @@ container {
     height:100vh;
     flex-direction: column;
 }
+
 
 
 /*---------------- > flex classes --------------------*/
